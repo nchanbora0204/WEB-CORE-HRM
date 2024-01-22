@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\qlns-core mvc\\DA_QLNhanSu\\DA_QLNhanSu\\DA_QLNhanSu.csproj": {}
+    "D:\\HRM-WEB CORE MVC\\DA_QLNhanSu\\DA_QLNhanSu\\DA_QLNhanSu.csproj": {}
   },
   "projects": {
-    "D:\\qlns-core mvc\\DA_QLNhanSu\\DA_QLNhanSu\\DA_QLNhanSu.csproj": {
+    "D:\\HRM-WEB CORE MVC\\DA_QLNhanSu\\DA_QLNhanSu\\DA_QLNhanSu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\qlns-core mvc\\DA_QLNhanSu\\DA_QLNhanSu\\DA_QLNhanSu.csproj",
+        "projectUniqueName": "D:\\HRM-WEB CORE MVC\\DA_QLNhanSu\\DA_QLNhanSu\\DA_QLNhanSu.csproj",
         "projectName": "DA_QLNhanSu",
-        "projectPath": "D:\\qlns-core mvc\\DA_QLNhanSu\\DA_QLNhanSu\\DA_QLNhanSu.csproj",
+        "projectPath": "D:\\HRM-WEB CORE MVC\\DA_QLNhanSu\\DA_QLNhanSu\\DA_QLNhanSu.csproj",
         "packagesPath": "C:\\Users\\Nam Trung\\.nuget\\packages\\",
-        "outputPath": "D:\\qlns-core mvc\\DA_QLNhanSu\\DA_QLNhanSu\\obj\\",
+        "outputPath": "D:\\HRM-WEB CORE MVC\\DA_QLNhanSu\\DA_QLNhanSu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nam Trung\\AppData\\Roaming\\NuGet\\NuGet.Config",

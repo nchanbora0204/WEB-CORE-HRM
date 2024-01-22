@@ -1451,3 +1451,15 @@ D:\qlns-core mvc\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.dll
 D:\qlns-core mvc\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\ref\DA_QLNhanSu.dll
 D:\qlns-core mvc\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.pdb
 D:\qlns-core mvc\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.genruntimeconfig.cache
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.csproj.AssemblyReference.cache
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.GeneratedMSBuildEditorConfig.editorconfig
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.AssemblyInfoInputs.cache
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.AssemblyInfo.cs
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.csproj.CoreCompileInputs.cache
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.MvcApplicationPartsAssemblyInfo.cs
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.MvcApplicationPartsAssemblyInfo.cache
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.RazorAssemblyInfo.cache
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.RazorAssemblyInfo.cs
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.dll
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\ref\DA_QLNhanSu.dll
+D:\HRM-WEB CORE MVC\DA_QLNhanSu\DA_QLNhanSu\obj\Debug\net5.0\DA_QLNhanSu.pdb
