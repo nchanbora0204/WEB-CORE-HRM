@@ -174,16 +174,17 @@ INSERT [dbo].[tblThueThuNhapCaNhan] ([CoQuanQuanLyThue], [MaLuong], [SoTien], [N
 INSERT [dbo].[tblThueThuNhapCaNhan] ([CoQuanQuanLyThue], [MaLuong], [SoTien], [NgayDangKi], [GhiChu]) VALUES (N'Cục Thuế TPHCM', 4, 550000, CAST(0x0000A6DA00000000 AS DateTime), N'Không Có')
 
 INSERT [dbo].[tblTTNhanVien] ([HoTen], [NgaySinh], [GioiTinh], [CMND], [NoiSinh], [DiaChi], [SDT], [MaTD], [MaBHXH], [MaLuong], [MaDV], [MaThue], [MaCM], [Email], [GhiChu], [DanToc], [TonGiao], [QuocTich], [Password],[PhanQuyen]) 
-VALUES (N'Nam Trung', CAST(0x0000884600000000 AS DateTime), N'Nam', N'215487745   ', N'Phú Thọ', N'TP HCM', N'01256985471 ', 3, 1, 1, 2, 1, 1, N'namtrung@gmail.com', N'Đẹp Trai ', N'Kinh', N'Không', N'Việt Nam', '123456',1)
+VALUES (N'Ngọc Quý', CAST(0x0000884600000000 AS DateTime), N'Nam', N'215487745   ', N'Bạc Liêu', N'TP HCM', N'01256985471  ', 3, 1, 1, 2, 1, 1, N'nquy@gmail.com', N'Không ', N'Kinh', N'Không', N'Việt Nam', '123456',1)
 INSERT [dbo].[tblTTNhanVien] ([HoTen], [NgaySinh], [GioiTinh], [CMND], [NoiSinh], [DiaChi], [SDT], [MaTD], [MaBHXH], [MaLuong], [MaDV], [MaThue], [MaCM], [Email], [GhiChu], [DanToc], [TonGiao], [QuocTich], [Password],[PhanQuyen]) 
-VALUES (N'Vũ Như Tuấn Hùng', CAST(0x0000A60100000000 AS DateTime), N'Nam', N'242523652   ', N'Hưng Yên', N'TP HCM', N'01665655214 ', 3, 2, 2, 3, 2,2, N'vuhung@gmail.com', N'Không', N'Kinh', N'Không', N'Việt Nam', '123456',1)
+VALUES (N'Nam Trung', CAST(0x0000A60100000000 AS DateTime), N'Nam', N'242523652   ', N'Vĩnh Long', N'TP HCM', N'2200009239', 3, 2, 2, 3, 2,2, N'ntrung@gmail.com', N'Không', N'Kinh', N'Không', N'Việt Nam', '123456',1)
 INSERT [dbo].[tblTTNhanVien] ([HoTen], [NgaySinh], [GioiTinh], [CMND], [NoiSinh], [DiaChi], [SDT], [MaTD], [MaBHXH], [MaLuong], [MaDV], [MaThue], [MaCM], [Email], [GhiChu], [DanToc], [TonGiao], [QuocTich], [Password],[PhanQuyen]) 
-VALUES (N'Nguyễn Thị Mạnh Hùng', CAST(0x0000806800000000 AS DateTime), N'Nữ', N'212823367   ', N'Phú Thọ', N'Hà Nội', N'01667899877 ', 3, 3, 3, 1, 3, 3, N'thihung@gmail.com', N'Không', N'Kinh', N'Không', N'Việt Nam','123456',3)
+VALUES (N'Thanh Ngân', CAST(0x0000806800000000 AS DateTime), N'Nữ', N'212823367   ', N'Đồng Tháp', N'TP HCM', N'01667899877 ', 3, 3, 3, 1, 3, 3, N'tngan@gmail.com', N'Không', N'Kinh', N'Không', N'Việt Nam','123456',1)
 INSERT [dbo].[tblTTNhanVien] ([HoTen], [NgaySinh], [GioiTinh], [CMND], [NoiSinh], [DiaChi], [SDT], [MaTD], [MaBHXH], [MaLuong], [MaDV], [MaThue], [MaCM], [Email], [GhiChu], [DanToc], [TonGiao], [QuocTich], [Password],[PhanQuyen]) 
-VALUES (N'Nguyễn Thị Đạt', CAST(0x0000806800000000 AS DateTime), N'Nữ', N'212823367   ', N'Hưng Yên', N'Hà Nội', N'01667899877 ', 3, 4, 4, 7, 4, 4, N'dat@gmail.com', N'Không', N'Kinh', N'Không', N'Việt Nam', '123456',2)
+VALUES (N'Bảo Duy', CAST(0x0000806800000000 AS DateTime), N'Nam', N'212823367   ', N'Kiên Giang', N'TP HCM', N'01667899877 ', 3, 4, 4, 7, 4, 4, N'bduy@gmail.com', N'Không', N'Kinh', N'Không', N'Việt Nam', '123456',1)
+INSERT [dbo].[tblTTNhanVien] ([HoTen], [NgaySinh], [GioiTinh], [CMND], [NoiSinh], [DiaChi], [SDT], [MaTD], [MaBHXH], [MaLuong], [MaDV], [MaThue], [MaCM], [Email], [GhiChu], [DanToc], [TonGiao], [QuocTich], [Password],[PhanQuyen]) 
+VALUES (N'Tấn Lộc', CAST(0x0000884600000000 AS DateTime), N'Nam', N'215487745   ', N'Cà Mau', N'TP HCM', N'01256985471  ', 3, 1, 1, 2, 1, 1, N'tloc@gmail.com', N'Không ', N'Kinh', N'Không', N'Việt Nam', '123456',1)
+INSERT [dbo].[tblTTNhanVien] ([HoTen], [NgaySinh], [GioiTinh], [CMND], [NoiSinh], [DiaChi], [SDT], [MaTD], [MaBHXH], [MaLuong], [MaDV], [MaThue], [MaCM], [Email], [GhiChu], [DanToc], [TonGiao], [QuocTich], [Password],[PhanQuyen]) 
+VALUES (N'Tuấn Anh', CAST(0x0000884600000000 AS DateTime), N'Nam', N'215487745   ', N'TP HCM', N'TP HCM', N'01256985471  ', 3, 1, 1, 2, 1, 1, N'tanh@gmail.com', N'Không ', N'Kinh', N'Không', N'Việt Nam', '123456',1)
 
---INSERT [dbo].[tblUser] ([Email], [Password], [PhanQuyen]) VALUES (N'dung@gmail.com', N'admin', 1)
---INSERT [dbo].[tblUser] ([Email], [Password], [PhanQuyen]) VALUES (N'vuhung@gmail.com', N'admin', 2)
---INSERT [dbo].[tblUser] ([Email], [Password], [PhanQuyen]) VALUES (N'thihung@gmail.com', N'admin', 3)
---INSERT [dbo].[tblUser] ([Email], [Password], [PhanQuyen]) VALUES (N'dat@gmail.com', N'admin', 1)
+
 

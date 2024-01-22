@@ -32,18 +32,18 @@ namespace DA_QLNhanSu.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=LAPTOP-N42SPJMH\\SQLEXPRESS;Database=QLNhanSu;Integrated security=true;");
+                optionsBuilder.UseSqlServer("Server=.\\SQLExpress;Database=QLNhanSu;Trusted_Connection=True;");
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.HasAnnotation("Relational:Collation", "SQL_Latin1_General_CP1_CI_AS");
+            modelBuilder.HasAnnotation("Relational:Collation", "Latin1_General_CI_AS");
 
             modelBuilder.Entity<TblBaoHiemXh>(entity =>
             {
                 entity.HasKey(e => e.MaBhxh)
-                    .HasName("PK__tblBaoHi__8338BDD3381DBBD6");
+                    .HasName("PK__tblBaoHi__8338BDD3EEA2E475");
 
                 entity.ToTable("tblBaoHiemXH");
 
@@ -63,7 +63,7 @@ namespace DA_QLNhanSu.Models
             modelBuilder.Entity<TblChuyenMon>(entity =>
             {
                 entity.HasKey(e => e.MaCm)
-                    .HasName("PK__tblChuye__27258E0F845370EC");
+                    .HasName("PK__tblChuye__27258E0F938B2085");
 
                 entity.ToTable("tblChuyenMon");
 
@@ -80,7 +80,7 @@ namespace DA_QLNhanSu.Models
             modelBuilder.Entity<TblDonVi>(entity =>
             {
                 entity.HasKey(e => e.MaDv)
-                    .HasName("PK__tblDonVi__2725865738B0E4C3");
+                    .HasName("PK__tblDonVi__272586574D294F31");
 
                 entity.ToTable("tblDonVi");
 
@@ -96,7 +96,7 @@ namespace DA_QLNhanSu.Models
             modelBuilder.Entity<TblLuong>(entity =>
             {
                 entity.HasKey(e => e.MaLuong)
-                    .HasName("PK__tblLuong__6609A48DE7B24381");
+                    .HasName("PK__tblLuong__6609A48DD3FAEBAD");
 
                 entity.ToTable("tblLuong");
 
@@ -133,7 +133,7 @@ namespace DA_QLNhanSu.Models
             modelBuilder.Entity<TblThang>(entity =>
             {
                 entity.HasKey(e => e.MaThang)
-                    .HasName("PK__tblThang__94C86991E5F9E4E7");
+                    .HasName("PK__tblThang__94C869910E932198");
 
                 entity.ToTable("tblThang");
 
@@ -147,7 +147,7 @@ namespace DA_QLNhanSu.Models
             modelBuilder.Entity<TblThongKeLuong>(entity =>
             {
                 entity.HasKey(e => e.MaTkluong)
-                    .HasName("PK__tblThong__B68A0319767B458C");
+                    .HasName("PK__tblThong__B68A03198E463511");
 
                 entity.ToTable("tblThongKeLuong");
 
@@ -163,19 +163,19 @@ namespace DA_QLNhanSu.Models
                     .WithMany(p => p.TblThongKeLuongs)
                     .HasForeignKey(d => d.MaNv)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__tblThongKe__MaNV__4BAC3F29");
+                    .HasConstraintName("FK__tblThongKe__MaNV__5070F446");
 
                 entity.HasOne(d => d.MaThangNavigation)
                     .WithMany(p => p.TblThongKeLuongs)
                     .HasForeignKey(d => d.MaThang)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__tblThongK__MaTha__4CA06362");
+                    .HasConstraintName("FK__tblThongK__MaTha__5165187F");
             });
 
             modelBuilder.Entity<TblThueThuNhapCaNhan>(entity =>
             {
                 entity.HasKey(e => e.MaThue)
-                    .HasName("PK__tblThueT__9CC2FDA33CE76C30");
+                    .HasName("PK__tblThueT__9CC2FDA3DF5BB7D2");
 
                 entity.ToTable("tblThueThuNhapCaNhan");
 
@@ -188,13 +188,13 @@ namespace DA_QLNhanSu.Models
                 entity.HasOne(d => d.MaLuongNavigation)
                     .WithMany(p => p.TblThueThuNhapCaNhans)
                     .HasForeignKey(d => d.MaLuong)
-                    .HasConstraintName("FK__tblThueTh__MaLuo__30F848ED");
+                    .HasConstraintName("FK__tblThueTh__MaLuo__440B1D61");
             });
 
             modelBuilder.Entity<TblTrinhDo>(entity =>
             {
                 entity.HasKey(e => e.MaTd)
-                    .HasName("PK__tblTrinh__27250069D349E5D2");
+                    .HasName("PK__tblTrinh__27250069353C98B0");
 
                 entity.ToTable("tblTrinhDo");
 
@@ -210,7 +210,7 @@ namespace DA_QLNhanSu.Models
             modelBuilder.Entity<TblTtnhanVien>(entity =>
             {
                 entity.HasKey(e => e.MaNv)
-                    .HasName("PK__tblTTNha__2725D70A90B662AA");
+                    .HasName("PK__tblTTNha__2725D70A75C9AD46");
 
                 entity.ToTable("tblTTNhanVien");
 
@@ -263,32 +263,32 @@ namespace DA_QLNhanSu.Models
                 entity.HasOne(d => d.MaBhxhNavigation)
                     .WithMany(p => p.TblTtnhanViens)
                     .HasForeignKey(d => d.MaBhxh)
-                    .HasConstraintName("FK__tblTTNhan__MaBHX__34C8D9D1");
+                    .HasConstraintName("FK__tblTTNhan__MaBHX__47DBAE45");
 
                 entity.HasOne(d => d.MaCmNavigation)
                     .WithMany(p => p.TblTtnhanViens)
                     .HasForeignKey(d => d.MaCm)
-                    .HasConstraintName("FK__tblTTNhanV__MaCM__38996AB5");
+                    .HasConstraintName("FK__tblTTNhanV__MaCM__4BAC3F29");
 
                 entity.HasOne(d => d.MaDvNavigation)
                     .WithMany(p => p.TblTtnhanViens)
                     .HasForeignKey(d => d.MaDv)
-                    .HasConstraintName("FK__tblTTNhanV__MaDV__36B12243");
+                    .HasConstraintName("FK__tblTTNhanV__MaDV__49C3F6B7");
 
                 entity.HasOne(d => d.MaLuongNavigation)
                     .WithMany(p => p.TblTtnhanViens)
                     .HasForeignKey(d => d.MaLuong)
-                    .HasConstraintName("FK__tblTTNhan__MaLuo__35BCFE0A");
+                    .HasConstraintName("FK__tblTTNhan__MaLuo__48CFD27E");
 
                 entity.HasOne(d => d.MaTdNavigation)
                     .WithMany(p => p.TblTtnhanViens)
                     .HasForeignKey(d => d.MaTd)
-                    .HasConstraintName("FK__tblTTNhanV__MaTD__33D4B598");
+                    .HasConstraintName("FK__tblTTNhanV__MaTD__46E78A0C");
 
                 entity.HasOne(d => d.MaThueNavigation)
                     .WithMany(p => p.TblTtnhanViens)
                     .HasForeignKey(d => d.MaThue)
-                    .HasConstraintName("FK__tblTTNhan__MaThu__37A5467C");
+                    .HasConstraintName("FK__tblTTNhan__MaThu__4AB81AF0");
             });
 
             OnModelCreatingPartial(modelBuilder);

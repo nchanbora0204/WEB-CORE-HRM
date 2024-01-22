@@ -14,8 +14,8 @@ namespace DA_QLNhanSu.Models
         public int? ThuePhaiDong { get; set; }
         public int? Thuong { get; set; }
         public int? Phat { get; set; }
-        public string GhiChu { get; set; }
         public int? TongLuong { get; set; }
+        public string GhiChu { get; set; }
         public DateTime? NgayTao { get; set; }
 
         public virtual TblTtnhanVien MaNvNavigation { get; set; }

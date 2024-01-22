@@ -155,15 +155,20 @@ namespace DA_QLNhanSu.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (tblTtnhanVien.ConvertPhoto != null)
-                {
-                    string folder = "images/avatar";
-                    folder += Guid.NewGuid().ToString() + "_" + tblTtnhanVien.ConvertPhoto.FileName;
-                    string serverFolder = Path.Combine(_webHostEnvironment.WebRootPath, folder);
-                    await tblTtnhanVien.ConvertPhoto.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
-                    tblTtnhanVien.Anh = $"/{folder}";
-                }
-                _context.Add(tblTtnhanVien);
+				if (tblTtnhanVien.ConvertPhoto == null)
+				{
+				}
+				else
+				{
+					string folder = "images/avatar";
+					folder += Guid.NewGuid().ToString()
+						+ "_"
+						+ tblTtnhanVien.ConvertPhoto.FileName;
+					string serverFolder = Path.Combine(_webHostEnvironment.WebRootPath, folder);
+					object p = await tblTtnhanVien.ConvertPhoto.CopyToAsync(new FileStream(serverFolder, FileMode.Create));
+					tblTtnhanVien.Anh = $"/{folder}";
+				}
+				_context.Add(tblTtnhanVien);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

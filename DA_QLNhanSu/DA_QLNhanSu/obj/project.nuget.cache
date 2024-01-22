@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sndiW/Xx9jFWYYu05/Hq7VDkgriQ4ilJ1ISLP390wItOMhFfAEcVMKsBgblKo/EfGgUiJMN0MVrb82bMBmpeLg==",
+  "dgSpecHash": "k+shfD2UmWhSy49zvZmmeFTVATieiS1D6f7GLs315aOhT8hIIQF9HYdkXySlFCzJEAotQLKZyTmBhgwGkamZcg==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\DA_QLNhanSu\\DA_QLNhanSu\\DA_QLNhanSu.csproj",
+  "projectFilePath": "D:\\qlns-core mvc\\DA_QLNhanSu\\DA_QLNhanSu\\DA_QLNhanSu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nam Trung\\.nuget\\packages\\epplus\\5.0.4\\epplus.5.0.4.nupkg.sha512",
     "C:\\Users\\Nam Trung\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

@@ -1,7 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 
 #nullable disable
 
@@ -44,8 +42,6 @@ namespace DA_QLNhanSu.Models
         public virtual TblTrinhDo MaTdNavigation { get; set; }
         public virtual TblThueThuNhapCaNhan MaThueNavigation { get; set; }
         public virtual ICollection<TblThongKeLuong> TblThongKeLuongs { get; set; }
-
-        [NotMapped]
-        public IFormFile ConvertPhoto { get; set; }
-    }
+		public object ConvertPhoto { get; internal set; }
+	}
 }
